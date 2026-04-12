@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rust Memo</title>
+    <style>
+      body { font-family: sans-serif; padding: 20px; background: #222; color: #fff; }
+      textarea { width: 100%; height: 200px; background: #333; color: #fff; border: 1px solid #555; padding: 10px; }
+      button { margin-top: 10px; padding: 10px 20px; cursor: pointer; }
+    </style>
+  </head>
+  <body>
+    <h1>Rust Memo</h1>
+    <textarea id="memo-input" placeholder="ここにメモを入力..."></textarea>
+    <br />
+    <button id="save-btn">保存する</button>
+    <p id="status"></p>
+    <p>
+      <span id="status"></span>
+      <span id="char-count" style="float: right;">文字数: 0</span>
+    </p>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
