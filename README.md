@@ -58,4 +58,12 @@
 ---
 
 ## 📁 ディレクトリ構造（Directory Structure）
+
+#実行とキャッシュ
+#キャッシュ(クリーン)「cmd」
+cd src-tauri
+cargo clean
+cd ..
+＃実行
+npm run tauri dev
 <img width="997" height="792" alt="スクリーンショット 2026-05-10 211349" src="https://github.com/user-attachments/assets/dadf6730-42b7-4df8-b615-45359926e311" />
